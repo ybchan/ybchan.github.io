@@ -11,12 +11,12 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/mentors.jpg',
-            link: 'https://github.com/abhn/Mporter',
-            title: 'Mporter',
-            demo: 'https://mporter.co',
-            technologies: ['Flask', 'Celery', 'Python'],
-            description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
+            image: 'assets/images/insightproject.png',
+            link: 'https://github.com/ybchan/Insight-2019C',
+            title: 'Sugar Fairy',
+            demo: 'https://www.youtube.com/watch?v=TNoblZZ64sk',
+            technologies: ['Python', 'Dash', 'CNN'],
+            description: "A Dash-based web app that used computer vision AI to identify candy to warn users for any potential food allergens.",
             categories: ['featured', 'webdev']
         },
         {

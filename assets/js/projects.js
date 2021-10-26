@@ -20,13 +20,13 @@ let render_projects = (slug) => {
             categories: ['featured', 'webdev']
         },
         {
-            image: 'assets/images/collage.jpg',
-            link: 'https://github.com/abhn/Marvel',
-            title: 'Marvel',
+            image: 'assets/images/tictactoe.png',
+            link: 'https://github.com/ybchan/tictactoe',
+            title: 'TicTacToe',
             demo: false,
-            technologies: ['Android', 'OpenCV'],
-            description: "Attendance marking tool that uses face recognition for marking attendance and firebase for tracking and analytics.",
-            categories: ['featured', 'native']
+            technologies: ['Python', 'Pygame'],
+            description: "Play a TicTacToe game with computer AI to see who can win",
+            categories: ['featured']
         },
         {
             image: 'assets/images/social-share-count.jpeg',

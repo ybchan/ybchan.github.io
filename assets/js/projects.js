@@ -25,7 +25,7 @@ let render_projects = (slug) => {
             title: 'TicTacToe',
             demo: false,
             technologies: ['Python', 'Pygame'],
-            description: "Play a TicTacToe game with computer AI to see who can win",
+            description: "Play a TicTacToe game with computer AI to see who can win.",
             categories: ['featured']
         },
         {
@@ -35,7 +35,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['R'],
             description: "Wonder what kinds of public school have the best SAT and graduation rate? Do race, gender, class size affect student performance?",
-            categories: ['feature', 'webdev']
+            categories: ['featured', 'webdev']
         },
         {
             image: 'assets/images/kaggle.png',
@@ -43,8 +43,8 @@ let render_projects = (slug) => {
             title: 'Disease predictor',
             demo: false,
             technologies: ['Python', 'ML'],
-            description: "Build machine learning model to anlayze biosensor data and predict onset of disease",
-            categories: ['feature', 'webdev']
+            description: "Build machine learning model to anlayze biosensor data and predict onset of disease.",
+            categories: ['webdev']
         },
         {
             image: 'assets/images/CNN.png',
@@ -52,17 +52,17 @@ let render_projects = (slug) => {
             title: 'Mapping of brain regions to behavior using CNN',
             demo: false,
             technologies: ['Python', 'Keras', 'CNN'],
-            description: "Used Gradient Weighted Class Activation Mapping to identify brain regions related to aggressive behavior",
-            categories: ['webdev', 'native']
+            description: "Used Gradient Weighted Class Activation Mapping to identify brain regions related to aggressive behavior.",
+            categories: ['featured', 'webdev', 'native']
         },
         {
-            image: 'assets/images/s3scan.png',
-            link: 'https://github.com/abhn/S3Scan',
-            title: 'S3Scan',
+            image: 'assets/images/ssRNA.png',
+            link: 'assets/html/ssRNA_analysis.html',
+            title: 'ssRNA analysis',
             demo: false,
-            technologies: ['python'],
-            description: "Automate crawling of a website and find publicly open S3 buckets for takeover.",
-            categories: ['native', 'security']
+            technologies: ['R', 'RNA-seq', 'DEseq2'],
+            description: "Analyzing RNA-seq data to identify the upstream and downstream targets of single neuron.",
+            categories: ['native']
         },
     ]
 

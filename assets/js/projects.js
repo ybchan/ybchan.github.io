@@ -38,13 +38,13 @@ let render_projects = (slug) => {
             categories: ['feature', 'webdev']
         },
         {
-            image: 'assets/images/data-destroyer.png',
-            link: 'https://github.com/abhn/data-destroyer-gui',
-            title: 'Data Destroyer',
+            image: 'assets/images/kaggle.png',
+            link: 'https://github.com/ybchan/Disease-prediction',
+            title: 'Disease predictor',
             demo: false,
-            technologies: ['C++', 'Qt'],
-            description: "Native GUI wrapper for GNU coreutils tool 'dd'",
-            categories: ['native']
+            technologies: ['Python', 'ML'],
+            description: "Build machine learning model to anlayze biosensor data and predict onset of disease",
+            categories: ['feature', 'webdev']
         },
         {
             image: 'assets/images/raspberry-pi-monitor.png',

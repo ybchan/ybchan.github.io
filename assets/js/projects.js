@@ -29,13 +29,13 @@ let render_projects = (slug) => {
             categories: ['featured']
         },
         {
-            image: 'assets/images/social-share-count.jpeg',
-            link: 'https://github.com/abhn/Social-Share-Counts',
-            title: 'Social Share Count',
+            image: 'assets/images/school.jpeg',
+            link: '_includes/school.html',
+            title: 'Massachusetts public school performance',
             demo: false,
-            technologies: ['Python'],
-            description: "Ever wondered how many times a URL has been shared on popular social networks?",
-            categories: ['native']
+            technologies: ['R'],
+            description: "Wonder what kinds of public school have the best SAT and graduation rate? Do race, gender, class size affect student performance?",
+            categories: ['feature', 'webdev']
         },
         {
             image: 'assets/images/data-destroyer.png',

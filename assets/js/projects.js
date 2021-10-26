@@ -47,13 +47,13 @@ let render_projects = (slug) => {
             categories: ['feature', 'webdev']
         },
         {
-            image: 'assets/images/raspberry-pi-monitor.png',
-            link: 'https://github.com/abhn/RPi-Status-Monitor',
-            title: 'Raspberry Pi Monitor',
+            image: 'assets/images/CNN.png',
+            link: 'https://github.com/ybchan/brain_region',
+            title: 'Mapping of brain regions to behavior using CNN',
             demo: false,
-            technologies: ['python', 'flask'],
-            description: "Web based status monitor/smart mirror, displays system stats, weather and more.",
-            categories: ['webdev', 'diy']
+            technologies: ['Python', 'Keras', 'CNN'],
+            description: "Used Gradient Weighted Class Activation Mapping to identify brain regions related to aggressive behavior",
+            categories: ['webdev', 'native']
         },
         {
             image: 'assets/images/s3scan.png',

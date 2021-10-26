@@ -29,8 +29,8 @@ let render_projects = (slug) => {
             categories: ['featured']
         },
         {
-            image: 'assets/images/school.jpeg',
-            link: '_includes/school.html',
+            image: 'assets/images/school.png',
+            link: 'assets/html/school.html',
             title: 'Massachusetts public school performance',
             demo: false,
             technologies: ['R'],
